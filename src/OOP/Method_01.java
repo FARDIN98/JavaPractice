@@ -28,6 +28,7 @@ public class Method_01 {
         * in which the method exists followed by the method call*/
         //Another way of calling method by creating object
         Method_01 obj = new Method_01();
+//        git check
         obj.getInfo();
         System.out.println(c);
         System.out.println(c1);
