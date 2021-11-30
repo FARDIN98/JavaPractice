@@ -8,7 +8,8 @@ class Student{
     }
 }
 
-public class theory1 {
+public class
+theory1 {
     public static void main(String[] args) {
 //        Student s1 = new Student();
         Student s2 = new Student("Fardin", 21);
