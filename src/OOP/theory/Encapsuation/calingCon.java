@@ -40,7 +40,7 @@ class Time{
 
 public class calingCon{
     public static void main(String[] args) {
-        Time t = new Time();
+        Time t = new Time(14,30,11);
         t.setSecond(20);
         t.setMinute(40);
         t.setHour(10);
