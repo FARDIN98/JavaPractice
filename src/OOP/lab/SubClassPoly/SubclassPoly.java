@@ -31,7 +31,8 @@ public class SubclassPoly {
 //        b.eat();
         //we can access fly() method by using reference casting. before casting, we should check first.
         if(b instanceof Bird){
-            Bird b1 = (Bird) b;
+//            Bird b1 = (Bird) b;
+            ((Bird)b).fly();
             System.out.println("b1 casted");
         }
 //        b1.fly();
