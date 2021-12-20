@@ -10,6 +10,9 @@ public class InterfaceLecture {
         Duck d = new Duck();
         d.fly();
         d.walk();
+
+        Bird b = new Bird();
+        b.fly();
     }
     
 }
