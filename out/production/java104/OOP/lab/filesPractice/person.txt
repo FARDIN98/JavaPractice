@@ -1,0 +1,3 @@
+name: Fardinid: 131cgpa: 3.58
+name: Asifid: 133cgpa: 3.48
+name: Shakinid: 134cgpa: 3.89
