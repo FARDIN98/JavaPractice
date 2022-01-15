@@ -84,6 +84,9 @@ class AnonymousExample{
                 System.out.println("i am the best");
             }
         };
+        a a = new a();
+        a.show();
+        //output: in A show
         obj.show();
         //output: i am the best
     }
