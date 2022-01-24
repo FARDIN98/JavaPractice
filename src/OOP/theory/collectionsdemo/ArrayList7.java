@@ -7,13 +7,13 @@ import java.util.*;
  public static void main(String args[]){  
      
            ArrayList<String> al=new ArrayList<String>();  
-           
+           //< > is a curve parenthesis
            System.out.println("Initial list of elements: "+al); 
            //Adding elements to the end of the list  
            al.add("Arshi");  
            al.add("Karim");  
            al.add("Bijoy");  
-           System.out.println("After invoking add(E e) method: "+al);  
+           System.out.println("After invoking add(I e) method: "+al);
            //Adding an element at the specific position  
            al.add(1, "Adnan");  
            System.out.println("After invoking add(int index, E element) method: "+al);  
