@@ -12,7 +12,7 @@ class Counter implements ActionListener{
     public Counter(){
         f = new JFrame("Counter");
         f.setLayout(new FlowLayout());
-        f.setSize(400,200);
+        f.setSize(250,100);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.add(new Label("Counter: "));
         tf = new JTextField(8);
@@ -28,10 +28,6 @@ class Counter implements ActionListener{
         f.setVisible(true);
     }
 
-    public static void main(String[] args) {
-        new Counter();
-    }
-
     @Override
     public void actionPerformed(ActionEvent ex) {
         if (ex.getSource() == c)
@@ -39,4 +35,10 @@ class Counter implements ActionListener{
         else if (ex.getSource() == r)
             tf.setText("0");
     }
+
+    public static void main(String[] args) {
+        new Counter();
+    }
+
+
 }
