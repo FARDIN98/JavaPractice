@@ -12,10 +12,10 @@ class CalculatorMain {
         frame = new JFrame("Calculator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new FlowLayout());
-        frame.setSize(400,300);
+        frame.setSize(300,100);
         tf1 = new JTextField(5);
         frame.add(tf1);
-        tf2 = new JTextField(2);
+        tf2 = new JTextField(1);
         frame.add(tf2);
         tf3 = new JTextField(5);
         frame.add(tf3);
