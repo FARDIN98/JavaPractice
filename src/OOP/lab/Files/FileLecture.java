@@ -7,7 +7,7 @@ public class FileLecture {
     public static void main(String[] args) throws IOException {
         File fileObj = new File("E:\\Java\\src\\OOP\\lab\\Files\\myfile.txt");
         //creating file
-        /*try {
+        try {
             if(fileObj.createNewFile()){     //returns boolean value
                 System.out.println("File created successfully at: " + fileObj.getAbsolutePath());
             }  else {
@@ -15,7 +15,7 @@ public class FileLecture {
             }
         } catch (IOException ex) {
             ex.printStackTrace();
-        }*/
+        }
 
 
         //writing in file
